@@ -223,8 +223,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-06-08 17:16:32" itemprop="dateModified" datetime="2023-06-08T17:16:32+08:00">2023-06-08</time>
+                <time title="修改时间：2023-06-08 17:26:54" itemprop="dateModified" datetime="2023-06-08T17:26:54+08:00">2023-06-08</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+            </span>
 
           <br>
             <span class="post-meta-item" title="本文字数">
@@ -253,14 +262,14 @@
       
           <p><a target="_blank" rel="noopener" href="https://zhangslob.github.io/2017/02/28/%E6%95%99%E4%BD%A0%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8CHexo-Github/">教程链接</a></p>
 <h4 id="一、按照流程做好所有步骤，但最后没生成博客页面"><a href="#一、按照流程做好所有步骤，但最后没生成博客页面" class="headerlink" title="一、按照流程做好所有步骤，但最后没生成博客页面"></a>一、按照流程做好所有步骤，但最后没生成博客页面</h4><p>很关键一个问题，在开始新建仓库时，如果勾选了add a readme file，记得把下面的默认分支改成master，不然默认是main分支<br><img src="/images/default-branch.png"></p>
-<h4 id="二、执行-hexo-deploy-后-出现-error-deployer-not-found-的错误"><a href="#二、执行-hexo-deploy-后-出现-error-deployer-not-found-的错误" class="headerlink" title="二、执行 hexo deploy 后,出现 error deployer not found:  的错误"></a>二、执行 hexo deploy 后,出现 error deployer not found:  的错误</h4><p>我这里报的错中，引号后面既没有git也没有github，但是解决方法还是一样的，输入npm install hexo-deployer-git –save<br>但我输入了也没有解决，后来发现是执行指令的位置不对，要在包含source文件夹的那个层级输入指令，也就是这里<br><img src="/images/fixdeploy.PNG"></p>
-<h4 id="三、执行deploy时弹出github登录窗口，输入用户名和密码后登录失败"><a href="#三、执行deploy时弹出github登录窗口，输入用户名和密码后登录失败" class="headerlink" title="三、执行deploy时弹出github登录窗口，输入用户名和密码后登录失败"></a>三、执行deploy时弹出github登录窗口，输入用户名和密码后登录失败</h4><p>报错内容应该是</p>
-<blockquote>
-<p>Support for password authentication was removed on August 13, 2021</p>
-</blockquote>
-<p>意思就是目前不支持用户名和密码的方式了，需要个人访问码<br>解决步骤可以参考这里<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/FatalFlower/article/details/119717823">解决方法</a><br>然后把访问码在密码位置输入就好了，如果在弹窗中输入后返回到命令行中还是要求你输入用户名和密码，再输一遍就好了</p>
-<h4 id="四、写这篇文章遇到了本地图片预览加载不出来的问题"><a href="#四、写这篇文章遇到了本地图片预览加载不出来的问题" class="headerlink" title="四、写这篇文章遇到了本地图片预览加载不出来的问题"></a>四、写这篇文章遇到了本地图片预览加载不出来的问题</h4><p>需要执行hexo generate，再执行hexo server即可<br><img src="/images/generate.PNG"><br>这里应该就是生成图片的过程</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/711e.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -310,7 +319,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-06-08 17:16:25" itemprop="dateModified" datetime="2023-06-08T17:16:25+08:00">2023-06-08</time>
+                <time title="修改时间：2023-06-08 17:27:00" itemprop="dateModified" datetime="2023-06-08T17:27:00+08:00">2023-06-08</time>
               </span>
 
           <br>
@@ -514,6 +523,12 @@
           <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
