@@ -25,7 +25,7 @@ params:
   disableSpecial1stPost: true   # 禁用所有第一篇的特殊样式
   ShowBreadCrumbs: true #在文章顶部开启面包屑导航，方便读者了解文章层级
   ShowPostNavLinks: true #：在文章底部开启“上一篇/下一篇”链接，增加页面访问深度。
-  mainSections: ["daily", "posts"]   # 添加这一行，顺序决定展示优先级
+  mainSections: ["posts"]   # 添加这一行，顺序决定展示优先级
   homeInfoParams:
     Title: "👋 你好！欢迎来到我的博客"
     Content: "这里会记录一些我的技术学习笔记和思考，希望能对你有所帮助。"
