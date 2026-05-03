@@ -5,12 +5,9 @@ export async function onRequest(context) {
   if (!auth || !isValid(auth)) {
     return new Response('需要验证身份才能访问', {
       status: 401,
-      headers: {
-        'WWW-Authenticate': 'Basic realm="私密日记"'
-      }
+      headers: { 'WWW-Authenticate': 'Basic realm="私密日记"' }
     });
   }
-
   return context.next();
 }
 
@@ -18,5 +15,5 @@ function isValid(auth) {
   const [scheme, encoded] = auth.split(' ');
   if (!encoded) return false;
   const [user, password] = atob(encoded).split(':');
-  return user === '你的用户名' && password === '你的密码';
+  return user === 'me' && password === '580231';
 }
