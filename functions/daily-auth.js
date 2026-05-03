@@ -1,4 +1,6 @@
 export async function onRequest(context) {
+
+  return new Response('Functions 已生效', { status: 200 });
   const { request } = context;
   const url = new URL(request.url);
 
